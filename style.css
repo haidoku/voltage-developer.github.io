@@ -10,17 +10,15 @@ body {
 
 header, nav, main, footer {
   padding: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
 }
 
 header {
-  background-color: rgba(0, 0, 0, 0.8);
-  color: #fff;
-  text-align: center;
-  position: relative; /* Added */
+  display: none; /* Hide the header */
 }
 
 nav {
-  background-color: rgba(255, 255, 255, 0.8);
   position: fixed;
   width: 100%;
   top: 0;
@@ -41,34 +39,35 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: #333;
+  color: #fff;
   font-weight: bold;
 }
 
 nav a:hover {
-  color: #666;
+  color: #ccc;
 }
 
 main {
-  padding: 100px 20px 20px; /* Adjusted */
-  margin-top: 60px; /* Added */
+  padding: 100px 20px 20px;
+  margin-top: 60px;
 }
 
 section {
   margin-bottom: 100px;
   padding: 20px;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.3); /* Updated transparency */
 }
 
 h2 {
   margin-top: 0;
+  color: #fff; /* Set text color to white */
 }
 
 footer {
-  background-color: rgba(0, 0, 0, 0.8);
-  color: #fff;
-  text-align: center;
   position: fixed;
   width: 100%;
   bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  text-align: center;
 }
