@@ -16,6 +16,7 @@ header {
   background-color: rgba(0, 0, 0, 0.8);
   color: #fff;
   text-align: center;
+  position: relative; /* Added */
 }
 
 nav {
@@ -48,6 +49,11 @@ nav a:hover {
   color: #666;
 }
 
+main {
+  padding: 100px 20px 20px; /* Adjusted */
+  margin-top: 60px; /* Added */
+}
+
 section {
   margin-bottom: 100px;
   padding: 20px;
@@ -66,4 +72,3 @@ footer {
   width: 100%;
   bottom: 0;
 }
-
