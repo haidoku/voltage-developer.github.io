@@ -3,18 +3,24 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-image: url("https://media.idownloadblog.com/wp-content/uploads/2020/06/macOS-Big-Sur-Daylight-Wallpaper-iDownloadBlog.jpg");
+  background-image: url("background.jpg");
   background-size: cover;
   background-position: center;
 }
 
-nav, main, footer {
+header, nav, main, footer {
   padding: 20px;
 }
 
-nav {
+header {
   background-color: rgba(0, 0, 0, 0.8);
   color: #fff;
+  text-align: center;
+  position: relative; /* Added */
+}
+
+nav {
+  background-color: rgba(255, 255, 255, 0.8);
   position: fixed;
   width: 100%;
   top: 0;
@@ -22,8 +28,6 @@ nav {
 }
 
 nav ul {
-  background-color: rgba(0, 0, 0, 0.8);
-  color: #fff;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -36,18 +40,16 @@ nav li {
 }
 
 nav a {
-  background-color: rgba(0, 0, 0, 0.8);
   text-decoration: none;
-  color: #fff;
+  color: #333;
   font-weight: bold;
 }
 
 nav a:hover {
+  color: #666;
 }
 
 main {
-  background-color: rgba(0, 0, 0, 0.8);
-  color: #fff;
   padding: 100px 20px 20px; /* Adjusted */
   margin-top: 60px; /* Added */
 }
@@ -55,6 +57,7 @@ main {
 section {
   margin-bottom: 100px;
   padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 h2 {
